@@ -1,8 +1,7 @@
 <?php
 require('ddbToMw.php');
 
-//$pattern = '#^https:\/\/www\.dndbeyond\.com\/profile\/\w+\/characters\/\d+$#';
-$pattern = '#^https:\/\/character-service\.dndbeyond\.com\/character\/v4\/character\/\d+$#';
+$pattern = '#^https:\/\/www\.dndbeyond\.com\/profile\/\w+\/characters\/\d+$#';
 $errors = false;
 $ddbUrl = null;
 $ddbJson = null;
